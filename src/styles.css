@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Geist';
+  src: url('./fonts/Geist-Variable.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --accent: #5eead4; /* mint: fills, underlines, focus rings */
   --accent-text: #5eead4;
@@ -28,8 +36,7 @@ body,
 }
 
 body {
-  font-family: 'Bricolage Grotesque Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  font-optical-sizing: auto;
+  font-family: 'Geist', system-ui, -apple-system, 'Segoe UI', sans-serif;
   font-size: 14px;
   color: var(--text);
   background: var(--bg);
